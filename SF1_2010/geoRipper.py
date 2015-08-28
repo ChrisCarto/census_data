@@ -11,7 +11,7 @@ for row in f.readlines():
 	else:
 		firstRow = "0"
 
-	o.write(firstRow + ", " + row.split(',')[6] + ", " + row.split(',')[9] + row.split(',')[10] + row.split(',')[19] + row.split(',')[20] + row.split(',')[21] + "\n")
+	o.write(firstRow + ", " + row.split(',')[6] + ", " + row.split(',')[9] + row.split(',')[10] + row.split(',')[19] +  row.split(',')[21] + "\n")
 
 f.close()
 o.close()
